@@ -1,0 +1,116 @@
+/* This is a reset to standardize the margins and paddings across browsers */
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #3b3b3b;
+}
+
+h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+nav, section {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+section {
+  padding: 50px 20px 50px; /* top, left/right, bottom */
+}
+
+/***
+HEADER
+***/
+header {
+  background-color: #DA0851;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+
+  padding: 20px;
+  /* This is equivalent to what I wrote above:
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; */
+
+  color: #FFFFFF; /* white */
+}
+
+
+
+nav .logo {
+  float: left;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.19em;
+  color: #FFFFFF;
+}
+
+.top-menu {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+  padding: 6px 0px;
+}
+
+.top-menu li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.top-menu li:last-child {
+  margin-right: 0px;
+}
+
+.header-content {
+  max-width: 500px;
+
+  margin: 150px auto 200px;
+/*  This centers the element
+
+This is equivalent to what I wrote above:
+  margin-top: 0;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: auto; */
+
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/***
+ABOUT ME
+***/
+section p {
+  font-size: 15px;
+  line-height: 2em;
+  letter-spacing: 0.034666667em;
+}
+
+
+/***
+UTILITIES
+***/
+.t-c {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
